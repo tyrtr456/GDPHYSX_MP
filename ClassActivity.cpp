@@ -27,8 +27,8 @@ int main(void)
     if (!glfwInit())
         return -1;
 
-    float window_width = 700.0f;
-    float window_height = 700.0f;
+    float window_width = 800.0f;
+    float window_height = 800.0f;
 
     /* Create a windowed mode window and its OpenGL context */
     window = glfwCreateWindow(window_width, window_height, "MP01 - XAVN", NULL, NULL);
