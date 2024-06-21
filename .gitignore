@@ -22,3 +22,6 @@
 *.ipdb
 *.iobj
 *.recipe
+ClassActivity/x64/Release/ClassActivity.tlog/link.write.1.tlog
+ClassActivity/x64/Release/ClassActivity.tlog/link.secondary.1.tlog
+ClassActivity/x64/Release/ClassActivity.tlog/link.read.1.tlog
