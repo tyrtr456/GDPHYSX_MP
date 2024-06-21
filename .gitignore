@@ -1,0 +1,7 @@
+
+*.ipch
+*.vsidx
+*.db
+*.json
+*.bin
+*.inl

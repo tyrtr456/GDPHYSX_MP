@@ -1,0 +1,15 @@
+﻿  ClassActivity.cpp
+E:\GDPHYSX\Programming-Challenge-01 - PASCUAL\ClassActivity.cpp(34,45): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\GDPHYSX\Programming-Challenge-01 - PASCUAL\ClassActivity.cpp(34,31): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Model3D.cpp
+E:\GDPHYSX\Programming-Challenge-01 - PASCUAL\Model3D.cpp(32,51): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  MyVector.cpp
+  PhysicsWorld.cpp
+  RenderParticle.cpp
+E:\GDPHYSX\Programming-Challenge-01 - PASCUAL\RenderParticle.cpp(23,21): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+  glad.c
+  Generating code
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+  All 2092 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  ClassActivity.vcxproj -> E:\GDPHYSX\Programming-Challenge-01 - PASCUAL\x64\Release\ClassActivity.exe
