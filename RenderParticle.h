@@ -12,20 +12,25 @@ namespace P6 {
 		bool isComplete = false;
 
 	public:
-		int ranking = 0;
+		float damping = 0.9f;
+		float mass = 1.0f;
 		int totalTime = 0;
+		float lifespan = 0.0f;
 		Model3D* RenderObject;
+		MyVector AccumulatedForce;
 		MyVector Position;
 		MyVector Velocity;
 		MyVector Acceleration;
 
 	
 	public:
-		RenderParticle(Model3D* object);
+		RenderParticle(Model3D* object, float lifespan);
 
 	protected:
 		void UpdatePosition(float time);
 		void UpdateVelocity(float time);
+		void AddForce(MyVector Force);
+		void ResetForce();
 
 
 	public:

@@ -16,7 +16,6 @@ namespace P6 {
 	public:
 		std::list<RenderParticle*> Particles;
 		void AddParticle(RenderParticle* toAdd);
-		void checkRanking();
 		void Update(float time);
 
 	private:

@@ -16,7 +16,7 @@
 
 using namespace std::chrono_literals;
 
-constexpr std::chrono::nanoseconds timestep(1000ms);  
+constexpr std::chrono::nanoseconds timestep(16ms);  
 
 
 int main(void)
@@ -31,7 +31,7 @@ int main(void)
     float window_height = 700.0f;
 
     /* Create a windowed mode window and its OpenGL context */
-    window = glfwCreateWindow(window_width, window_height, "PC01 - Uriel Pascual", NULL, NULL);
+    window = glfwCreateWindow(window_width, window_height, "MP01 - XAVN", NULL, NULL);
     if (!window)
     {
         glfwTerminate();
@@ -232,25 +232,25 @@ int main(void)
     P6::Model3D particleModel3 = P6::Model3D(glm::vec3(-0.800, -0.700, -0.300f), glm::vec3(0.0f), glm::vec3(0.02f), 0.0f, glm::vec3(0, 0, 1));
     P6::Model3D particleModel4 = P6::Model3D(glm::vec3(0.800, -0.700, -0.150f), glm::vec3(0.0f), glm::vec3(0.02f), 0.0f, glm::vec3(255, 255, 0));
 
-    P6::RenderParticle p1 = P6::RenderParticle(&particleModel1);
+    P6::RenderParticle p1 = P6::RenderParticle(&particleModel1, 10.0f);
     p1.Position = P6::MyVector(particleModel1.position.x, particleModel1.position.y, particleModel1.position.z);
     p1.Velocity = P6::MyVector(0.8f, 0.8f, 0.f);
     p1.Acceleration = P6::MyVector(0.145f, 0.145f, 0.f);
     pWorld.AddParticle(&p1);
 
-    P6::RenderParticle p2 = P6::RenderParticle(&particleModel2);
+    P6::RenderParticle p2 = P6::RenderParticle(&particleModel2, 10.0f);
     p2.Position = P6::MyVector(particleModel2.position.x, particleModel2.position.y, particleModel2.position.z);
     p2.Velocity = P6::MyVector(0.9f, 0.0f, 0.f);
     p2.Acceleration = P6::MyVector(0.08f, 0.08f, 0.f);
     pWorld.AddParticle(&p2);
 
-    P6::RenderParticle p3 = P6::RenderParticle(&particleModel3);
+    P6::RenderParticle p3 = P6::RenderParticle(&particleModel3, 10.0f);
     p2.Position = P6::MyVector(particleModel3.position.x, particleModel3.position.y, particleModel3.position.z);
     p2.Velocity = P6::MyVector(0.13f, 0.13f, 0.f);
     p2.Acceleration = P6::MyVector(0.01f, 0.01f, 0.f);
     pWorld.AddParticle(&p3);
 
-    P6::RenderParticle p4 = P6::RenderParticle(&particleModel4);
+    P6::RenderParticle p4 = P6::RenderParticle(&particleModel4, 10.0f);
     p2.Position = P6::MyVector(particleModel4.position.x, particleModel4.position.y, particleModel4.position.z);
     p2.Velocity = P6::MyVector(0.11f, 0.11f, 0.f);
     p2.Acceleration = P6::MyVector(0.03f, 0.03f, 0.f);
