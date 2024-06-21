@@ -16,3 +16,5 @@
 .vs/ClassActivity/v17/Browse.VC.db-shm
 .vs/ClassActivity/v17/.suo
 *.db-wal
+*.db-shm
+*.iobj
