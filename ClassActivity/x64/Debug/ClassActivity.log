@@ -1,6 +1,0 @@
-﻿  ClassActivity.cpp
-E:\GDPHYSX\Assignment3\ClassActivity.cpp(34,45): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-E:\GDPHYSX\Assignment3\ClassActivity.cpp(34,31): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-  PhysicsWorld.cpp
-  Generating Code...
-  ClassActivity.vcxproj -> E:\GDPHYSX\Assignment3\x64\Debug\ClassActivity.exe

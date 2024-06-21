@@ -1,8 +1,0 @@
-﻿  RenderParticle.cpp
-E:\GDPHYSX_MP\RenderParticle.cpp(25,21): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
-  Generating code
-  3 of 2092 functions ( 0.1%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    6 functions had inline decision re-evaluated but remain unchanged
-  Finished generating code
-  ClassActivity.vcxproj -> E:\GDPHYSX_MP\x64\Release\ClassActivity.exe
