@@ -18,3 +18,7 @@
 *.db-wal
 *.db-shm
 *.iobj
+*.tlog
+*.ipdb
+*.iobj
+*.recipe
